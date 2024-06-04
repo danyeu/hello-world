@@ -23,7 +23,7 @@
                 <version>3.4.3</version>
                 <configuration>
                     <to>
-                        <image>danyeu/hello-world:v1</image>
+                        <image>danyeu/hello-world:jib</image>
                     </to>
                 </configuration>
             </plugin>
