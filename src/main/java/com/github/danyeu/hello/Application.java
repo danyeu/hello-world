@@ -8,7 +8,9 @@ public class Application {
 
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
-        // no need to mvn clean install before
-        // mvn spring-boot:run
+        // mvn clean install
+        // docker compose up --build
+        // compose needed to port forward 8080:8080
+
     }
 }

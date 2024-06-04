@@ -1,0 +1,7 @@
+services:
+  server:
+    image: danyeu/hello-world:spring-docker
+    build:
+      context: .
+    ports:
+      - 8080:8080
