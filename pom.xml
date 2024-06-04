@@ -14,4 +14,20 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <build>
+        <finalName>app</finalName>
+        <plugins>
+            <plugin>
+                <groupId>com.google.cloud.tools</groupId>
+                <artifactId>jib-maven-plugin</artifactId>
+                <version>3.4.3</version>
+                <configuration>
+                    <to>
+                        <image>danyeu/hello-world:v1</image>
+                    </to>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
 </project>
