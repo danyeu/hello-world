@@ -8,7 +8,4 @@ public class HelloService {
         return "Hello, world!";
     }
 
-    public String getHey() {
-        return "Hey, world!";
-    }
 }
